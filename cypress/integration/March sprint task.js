@@ -9,7 +9,7 @@ describe('sprint task',()=> {
     cy.get('[class="dashboard-widget-wrapper widget-size-s avg-age-severity-dashboard-widget"]').find('[data-testid="widget-title"]')
       .invoke('text').should('contain', 'Average Age By Severity')
     //go to findings page
-    cy.get('.app-header-wrapper').contains('Findings').click().then(findings_page => {
+    cy.get('[class="app-header-wrapper"]').contains('Findings').click().then(findings_page => {
       //make sure that the number of findings in the page is more then 10
       cy.wrap(findings_page).get('[class="total-findings-title-num"]').invoke('text').then(check_number_of_findings => {
         const int_findings = parseInt(check_number_of_findings)
@@ -32,9 +32,6 @@ describe('sprint task',()=> {
 
 
 
-  // it.only('Sprint_Task',()=>{
-  //   cy.visit('/');
-  //
-  // })
+  
 
 
