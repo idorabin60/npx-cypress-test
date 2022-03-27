@@ -1,0 +1,437 @@
+{
+  "data": {
+    "finding_filters": {
+      "edges": [
+        {
+          "node": {
+            "name": "ALL_FILTERS",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoy",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": true,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjA=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "Open Findings",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoz",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": false,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjE=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "Pending Verification",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                },
+                {
+                  "field": "ticket_status",
+                  "condition": "in",
+                  "value": [
+                    "DONE"
+                  ]
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjo0",
+            "editable": false,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjI=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "Rejected Tickets",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                },
+                {
+                  "field": "ticket_status",
+                  "condition": "in",
+                  "value": [
+                    "REJECTED"
+                  ]
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjo1",
+            "editable": false,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjM=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "SLA: In Time",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ]
+                  }
+                },
+                {
+                  "value": [
+                    "WITHIN_SLA"
+                  ],
+                  "field": "sla_status",
+                  "condition": "in"
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxMA==",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjQ=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "SLA: Due Soon",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ]
+                  }
+                },
+                {
+                  "value": [
+                    "ALMOST_BROKEN_SLA"
+                  ],
+                  "field": "sla_status",
+                  "condition": "in"
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxMQ==",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjU=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "SLA: Overdue",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14"
+                    ]
+                  }
+                },
+                {
+                  "value": [
+                    "BROKEN_SLA"
+                  ],
+                  "field": "sla_status",
+                  "condition": "in"
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxMg==",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjY=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "GitHub from the past 7 days",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                },
+                {
+                  "operator": "and",
+                  "operands": [
+                    {
+                      "field": "source",
+                      "condition": "in",
+                      "value": [
+                        "GitHub"
+                      ]
+                    },
+                    {
+                      "value": "8",
+                      "field": "age",
+                      "condition": "lt"
+                    }
+                  ]
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxNw==",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjc=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "Intruder from the past 7 days",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                },
+                {
+                  "operator": "and",
+                  "operands": [
+                    {
+                      "field": "source",
+                      "condition": "in",
+                      "value": [
+                        "Intruder"
+                      ]
+                    },
+                    {
+                      "value": "8",
+                      "field": "age",
+                      "condition": "lt"
+                    }
+                  ]
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxOA==",
+            "editable": true,
+            "created_by": "seemplicity",
+            "system": true,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjg=",
+          "__typename": "FindingFilterEdge"
+        },
+        {
+          "node": {
+            "name": "Medium severity",
+            "filter_data": {
+              "operator": "and",
+              "operands": [
+                {
+                  "field": "actual_status",
+                  "condition": "",
+                  "value": {
+                    "field": "key",
+                    "condition": "in",
+                    "value": [
+                      "11",
+                      "12",
+                      "13",
+                      "14",
+                      "15"
+                    ]
+                  }
+                },
+                {
+                  "value": [
+                    "1"
+                  ],
+                  "field": "severity",
+                  "condition": "in"
+                }
+              ]
+            },
+            "filter_type": "FILTER",
+            "id": "RmluZGluZ0ZpbHRlcjoxOQ==",
+            "editable": true,
+            "created_by": "rotem@seemplicitytest.com",
+            "system": false,
+            "popular": false,
+            "default": false,
+            "__typename": "FindingFilter"
+          },
+          "cursor": "YXJyYXljb25uZWN0aW9uOjk=",
+          "__typename": "FindingFilterEdge"
+        }
+      ],
+      "pageInfo": {
+        "hasNextPage": false,
+        "startCursor": "YXJyYXljb25uZWN0aW9uOjA=",
+        "__typename": "PageInfo"
+      },
+      "__typename": "FindingFilterConnection"
+    }
+  }
+}

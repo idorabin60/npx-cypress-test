@@ -1,0 +1,21 @@
+{
+  "article": {
+    "slug": "this-is-the-title-zdu216",
+    "title": "this is the title",
+    "description": "",
+    "body": "123456",
+    "createdAt": "2022-03-23T16:12:29.854Z",
+    "updatedAt": "2022-03-23T16:12:29.854Z",
+    "tagList": [
+      "987"
+    ],
+    "favorited": true,
+    "favoritesCount": 1,
+    "author": {
+      "username": "ido",
+      "bio": null,
+      "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+      "following": false
+    }
+  }
+}
