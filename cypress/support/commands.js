@@ -24,10 +24,9 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 Cypress.Commands.add('typeLogin', (user) => {
-  cy.get('[placeholder="USERNAME"]').type(user.email)
-
-  cy.get('[placeholder="PASSWORD"]').type(user.password)
-  cy.get('[data-testid="login-submit-btn"]').click()
+  cy.get('[data-testid="login-username-input"]').type(user.email);
+  cy.get('[data-testid="login-password-input"]').type(user.password);
+  cy.get('[data-testid="login-submit-btn"]').click();
 })
 
 Cypress.Commands.add('Login_udemy',(user) =>{
