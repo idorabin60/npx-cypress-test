@@ -6,11 +6,11 @@ beforeEach(()=> {
 describe('sanity test - dashboard page and num of findings',()=> {
   it('verify dashboard and findings number test', () => {
     cy.get('[class="dashboard-widget-wrapper widget-size-s avg-age-severity-dashboard-widget"]').find('[data-testid="widget-title"]')
-      .invoke('text').should('contain', 'Average Age By Severity')
+      .invoke('text').should('contain', 'Average Age By Severity');
 
     cy.get('.app-header-wrapper').contains('Findings').click().then(findings_page => {
-      cy.get('.app-header-wrapper').contains('Findings').click().then(Findings_page => {
-        cy.wrap(Findings_page).get('.total-findings-title-num').invoke('text').then(checkNumberOfFindings => {
+      cy.get('.app-header-wrapper').contains('Findings').click().then(findingsPage => {
+        cy.wrap(findingsPage).get('.total-findings-title-num').invoke('text').then(checkNumberOfFindings => {
           const numOfFindings= parseInt(checkNumberOfFindings);
           assert.isAbove(numOfFindings, 10);
         })
