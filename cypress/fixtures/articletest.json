@@ -1,0 +1,204 @@
+{
+  "pageProps": {
+    "articles": [
+      {
+        "slug": "s-x3bxss",
+        "title": "s",
+        "description": "s",
+        "body": "s",
+        "createdAt": "2022-03-29T14:43:38.928Z",
+        "updatedAt": "2022-03-29T14:43:38.928Z",
+        "tagList": [],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "df-qdkagq",
+        "title": "df",
+        "description": "df",
+        "body": "dfd",
+        "createdAt": "2022-03-29T13:40:21.903Z",
+        "updatedAt": "2022-03-29T13:40:21.903Z",
+        "tagList": [
+          "fdf"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "asas-t2mybm",
+        "title": "asas",
+        "description": "aSas",
+        "body": "",
+        "createdAt": "2022-03-29T13:37:12.581Z",
+        "updatedAt": "2022-03-29T13:37:12.581Z",
+        "tagList": [
+          "aSa"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "the-test-802ivh",
+        "title": "the test",
+        "description": "the test2",
+        "body": "the test 3",
+        "createdAt": "2022-03-29T13:33:31.535Z",
+        "updatedAt": "2022-03-29T13:33:31.535Z",
+        "tagList": [
+          "the test 4"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "d-x5s8di",
+        "title": "d",
+        "description": "d",
+        "body": "d",
+        "createdAt": "2022-03-29T13:15:13.134Z",
+        "updatedAt": "2022-03-29T13:15:13.134Z",
+        "tagList": [
+          "d"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "j-63u9ym",
+        "title": "j",
+        "description": "j",
+        "body": "j",
+        "createdAt": "2022-03-29T13:14:00.646Z",
+        "updatedAt": "2022-03-29T13:14:00.646Z",
+        "tagList": [
+          "j"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "k-6oiess",
+        "title": "k",
+        "description": "k",
+        "body": "k",
+        "createdAt": "2022-03-29T13:13:41.347Z",
+        "updatedAt": "2022-03-29T13:13:41.347Z",
+        "tagList": [
+          "k"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "s-37vgl5",
+        "title": "s",
+        "description": "s",
+        "body": "s",
+        "createdAt": "2022-03-29T13:01:54.654Z",
+        "updatedAt": "2022-03-29T13:01:54.654Z",
+        "tagList": [
+          "s"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "e-1brmtv",
+        "title": "e",
+        "description": "wed",
+        "body": "wed",
+        "createdAt": "2022-03-29T13:01:14.015Z",
+        "updatedAt": "2022-03-29T13:01:14.015Z",
+        "tagList": [
+          "wed"
+        ],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      },
+      {
+        "slug": "lession-30-2fwup8",
+        "title": "lession 30",
+        "description": "lession 30",
+        "body": "lession 30 ",
+        "createdAt": "2022-03-29T12:57:43.053Z",
+        "updatedAt": "2022-03-29T12:57:43.053Z",
+        "tagList": [],
+        "favorited": false,
+        "favoritesCount": 0,
+        "author": {
+          "username": "idorabin60",
+          "bio": "",
+          "image": "https://static.productionready.io/images/smiley-cyrus.jpg",
+          "following": false
+        }
+      }
+    ],
+//    "articlesCount": 18,
+//    "tags": [
+//      "fdf",
+//      "aSa",
+//      "the test 4",
+//      "d",
+//      "j",
+//      "k",
+//      "s",
+//      "wed"
+//    ]
+//  },
+//  "__N_SSG": true
+//}

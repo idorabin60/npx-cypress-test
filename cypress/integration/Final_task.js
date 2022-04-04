@@ -1,21 +1,47 @@
 beforeEach(()=>{
-  cy.server()
-  cy.route('GET','**/tags','fixture:tags.json')
   cy.visit('/')
-  cy.Login_udemy({email: 'idorabin@seemplicity.com', password: 'kingbar100'})
-})
-describe('final_taske',()=> {
-  it('tag test',() =>{
-    cy.get('.tag-list')
-      .should('contain','cypress')
-      .and('contain','automation')
-  })
-  it('verify global feed',()=>{
-    cy.route('GET','**/articles*','fixture:Articales.json')
-    cy.route('GET','**/articales/feed*','{"articles":[],"articlesCount":0}')
-    cy.contains('Global Feed').click();
-
-  })
-
+  cy.Login_udemy()
 
 })
+describe('delete a new articale using api req', () =>{
+  it('lesson 30',() => {
+    const usserCredent = {
+      "user": {
+        "email": "idorabin@seemplicity.com",
+        "password": "kingbar100"
+      }
+    }
+
+    const reqBody ={
+      "title": "31.3test after change",
+      "description": "abc",
+      "body": "defg",
+      "tagList": []
+    }
+
+
+
+    const token1 = ''
+
+    cy.request('POST','http://localhost:3000/api/users/login',usserCredent)
+      .its('body1').then(body1 =>{
+         //const token1 = body.user.token
+
+
+    })
+    const token2 = token1
+
+
+    })
+       cy.request({
+         url:"http://localhost:3000/api/articles",
+      headers: {'Authorization': 'Token '+token2},
+      method: 'POST',
+      body: reqBody
+    }).then(response =>{
+      expect(response.status).to.equal(200)
+    })
+  })
+
+
+
